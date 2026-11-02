@@ -1,0 +1,30 @@
+DRAFT LAUNCH / OUTREACH — not sent, no paid activity
+
+Publish only after Founder approval of the exact export, licence/rights,
+confidential intake/access controls and launch plan, supported by independent
+documentation/disclosure review. Do not delay the GUI to launch this.
+First asset: offline quickstart and candid limitations, not a production claim.
+Invite a small opt-in group of developers interested in read-only document/project
+metadata integrations. Request manual, specific feedback on first-run experience,
+contract clarity and permission boundaries. Founder selects actual recipients.
+Then share an approved fictional-data walkthrough in relevant developer spaces
+where permitted. Do not scrape contacts, mass-message, buy engagement or imply
+partnerships, real API availability or independent security acceptance.
+
+Invitation draft:
+We're preparing ENKI Developer Network: a small offline connector quickstart and
+proposed read-only contract using fictional records. We'd welcome feedback on
+the developer experience and permission boundaries. It needs no ENKI core access,
+API key or customer data. Would you like to review the quickstart once released?
+
+Technical announcement draft:
+ENKI's developer preview provides a proposed read-only connector contract, a
+Python reference SDK and two fictional records you can explore offline. We're
+looking for concrete feedback and small documentation/conformance contributions.
+It does not connect to ENKI core or offer an approved production integration.
+
+Add only approved public URLs after release; private issue/PR links must never
+appear in public copy. Proposed first issues: quickstart clarity, negative contract
+cases, accessible docs, compatible language binding. Track voluntary successful
+first runs, useful feedback and reviewed contributions; no telemetry by default,
+no star/adoption inflation. Founder approves timing, claims, channels and spend.

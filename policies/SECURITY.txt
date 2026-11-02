@@ -1,0 +1,21 @@
+DRAFT SECURITY POLICY — public launch HOLD until private intake is verified
+
+Do not report vulnerabilities, secrets or customer data in public issues/PRs.
+Proposed private route: GitHub private vulnerability reporting on the future
+developer repository. That repository/route does not yet exist or have verification;
+this document must not be advertised as a working intake. Founder designated the custodian role as a separately appointed ENKI security
+administrator. A named person, restricted role, route and privacy handling must
+be approved and tested before activation. No role/access change is made here.
+
+Once verified, send affected component/version, a minimal synthetic reproduction,
+impact and your preferred contact/disclosure constraints. Do not access another
+user's records, run denial-of-service tests or test ENKI/third-party live systems
+without separate explicit authorization. This policy grants no testing authority,
+safe-harbor promise, compensation or bounty.
+
+Custodian workflow: acknowledge privately (proposed target 3 business days, only
+after staffing approval), triage severity/scope, contain exposure, agree remediation
+and disclosure timing, independently retest the exact fix, then publish an approved
+advisory. Preserve sensitive evidence privately under approved retention limits.
+If secrets leak, use approved custody to revoke/rotate; removal alone is insufficient.
+Supported versions and actual response commitments must be approved before launch.

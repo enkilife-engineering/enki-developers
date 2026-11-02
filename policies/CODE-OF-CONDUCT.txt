@@ -1,0 +1,21 @@
+DRAFT CODE OF CONDUCT — applies after approved publication
+
+Treat contributors with respect. Discuss code, evidence and ideas constructively.
+Allow different experience levels, backgrounds and communication styles. Give
+specific feedback, credit others' work and protect private information.
+
+Harassment, threats, discriminatory abuse, sexualized attention, doxxing, spam
+and retaliation for good-faith reports are unacceptable. Do not publish private
+security reports or personal information to settle a disagreement.
+
+An appointed moderator will assess reports fairly, manage conflicts of interest,
+and use proportionate action: request correction, remove abusive content, warn,
+temporarily restrict or ban participation. Urgent threats may warrant immediate
+restriction. Report handling should minimize disclosure and retaliation risk.
+Appeals should go to an uninvolved appointed maintainer; the author of a complaint
+or subject of a complaint must not adjudicate it alone.
+
+Founder must appoint the moderator, uninvolved appeal owner and a verified private
+conduct-reporting route before launch. No unverified contact address is supplied
+in this draft. This document is not a promise of legal confidentiality or emergency
+response. Follow the approved security policy for vulnerability disclosures.

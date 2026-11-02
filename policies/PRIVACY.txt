@@ -1,0 +1,18 @@
+DRAFT PRIVACY / DATA HANDLING — synthetic developer quickstart
+
+The supplied offline sample uses two fictional records. It makes no network calls,
+collects no accounts, identifiers or telemetry and reads no external content or
+credentials. It does not send data to model providers or connect to ENKI core.
+The local fixture grant is test data, not consent/authentication for real access.
+
+Public contributions reveal the author's chosen GitHub identity and submitted
+content through GitHub. Do not submit customer records, case files, personal data,
+credentials or private logs. Keep vulnerability reports in the verified private
+intake once available, with the minimum synthetic evidence necessary.
+
+Before ANY real connector: approve an actual notice covering accountable entity,
+contact route, purposes, data categories, legal/consent basis where applicable,
+provider destinations, subprocessors, retention/deletion, revocation and user
+rights handling. Obtain granular resource-bound authorization; read-only access
+still discloses data. No compliance certification is asserted by this draft.
+Real connector activation, credentials and retention are not authorized here.

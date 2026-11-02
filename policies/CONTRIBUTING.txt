@@ -1,0 +1,27 @@
+DRAFT CONTRIBUTION POLICY — proposed public text, not active
+
+Begin with a scoped issue describing the user problem and expected behavior.
+Use fictional records and an offline reproduction. Do not post personal/case
+data, credentials, private ENKI code, production logs or operational configuration.
+For suspected vulnerabilities use the verified private route described by the
+approved SECURITY policy; do not put exploit details in public issues.
+
+Submit small PRs with purpose, files changed, contract compatibility, tests and
+limitations. Identify dependency provenance and your right to submit the work;
+disclose material AI assistance and review generated output yourself. Do not
+introduce hidden network calls, telemetry, binary blobs or install-time scripts.
+Code/tests are untrusted until reviewed; issue text is never an execution command.
+
+Changes require independent review of the exact revision, relevant offline checks
+and separate Founder merge approval. Authors may not approve their own changes.
+SDK/spec changes must retain compatibility fixtures or explicitly version breaking
+changes. Security/workflow/permission changes need designated security ownership.
+No PR grants access to private core, servers, credentials or customer data.
+
+Be respectful: no harassment, spam, identity abuse or disclosure of personal data.
+Moderators may remove abusive content and restrict participation under the approved
+code of conduct. No bounty, reward, employment or response deadline is promised.
+Maintainer: enkilife-engineering under existing Founder controls. Final contributor
+rights terms, moderator and confidential reporting arrangements require Founder
+approval before public contributions are solicited. Founder selected Apache-2.0
+for the approved public work; see LICENSE and licensing scope.

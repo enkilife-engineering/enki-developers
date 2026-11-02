@@ -1,0 +1,20 @@
+LICENSING SCOPE — Founder decision, 1 November 2026
+
+Founder selected Apache License 2.0 for the approved public SDK, documentation
+where applicable, and example connector code, subject to final third-party
+licence and exact export review. LICENSE contains the unmodified official text:
+https://www.apache.org/licenses/LICENSE-2.0.txt
+
+The proposed licensed work is the newly authored SDK, synthetic example, tests,
+schemas and accompanying public developer documentation in the exact approved
+export. No private ENKI core, infrastructure, credentials, internal security
+mechanisms, customer information or trademark rights are included. This candidate
+has not been approved for publication; licence selection is not export authority.
+
+Provenance: new source prepared in this chat; no private core source copied,
+no vendored third-party source. Runtime uses Python standard library only.
+Optional validation/schema_checks.py imports jsonschema, which is not bundled
+or a runtime dependency; external packages remain subject to their own licences.
+No third-party notices are known to require inclusion from copied source other
+than the supplied official licence. This is an author provenance record, not a
+legal ownership certification. Final attribution/rights/export review remains.
