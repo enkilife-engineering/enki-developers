@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ENKI draft synthetic request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract",
+    "request_id",
+    "connector",
+    "operation",
+    "resource",
+    "limit"
+  ],
+  "properties": {
+    "contract": {
+      "const": "enki.connector/0.1-draft"
+    },
+    "request_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^[A-Za-z0-9_-]+$",
+      "not": {
+        "pattern": "[^A-Za-z0-9_-]"
+      }
+    },
+    "connector": {
+      "const": "synthetic.catalog"
+    },
+    "operation": {
+      "const": "catalog.list"
+    },
+    "resource": {
+      "const": "synthetic://catalog"
+    },
+    "limit": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 2
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "proposal-only-not-authentication-or-runtime-policy",
+  "contract": "enki.connector/0.1-draft",
+  "connector": "synthetic.catalog",
+  "operations": ["catalog.list"],
+  "resources": ["synthetic://catalog"],
+  "scopes": ["catalog:read"],
+  "limits": {"maximum_records": 2, "request_id_ascii_characters": 64},
+  "network_destinations": [],
+  "filesystem_mounts": [],
+  "credentials": [],
+  "core_access": false,
+  "synthetic_only": true,
+  "authentication_implemented": false,
+  "runtime_isolation_verified": false
+}

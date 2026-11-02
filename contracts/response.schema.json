@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ENKI draft synthetic response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract",
+    "request_id",
+    "synthetic",
+    "records",
+    "next_cursor"
+  ],
+  "properties": {
+    "contract": {
+      "const": "enki.connector/0.1-draft"
+    },
+    "request_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^[A-Za-z0-9_-]+$",
+      "not": {
+        "pattern": "[^A-Za-z0-9_-]"
+      }
+    },
+    "synthetic": {
+      "const": true
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "title",
+          "text",
+          "source"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "demo-001",
+              "demo-002"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128,
+            "pattern": "^[^\\u0000-\\u001f\\u007f]+$",
+            "not": {
+              "pattern": "[\\u0000-\\u001f\\u007f]"
+            }
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1024,
+            "pattern": "^[^\\u0000-\\u001f\\u007f]+$",
+            "not": {
+              "pattern": "[\\u0000-\\u001f\\u007f]"
+            }
+          },
+          "source": {
+            "enum": [
+              "synthetic://catalog/demo-001",
+              "synthetic://catalog/demo-002"
+            ]
+          }
+        }
+      }
+    },
+    "next_cursor": {
+      "type": "null"
+    }
+  }
+}

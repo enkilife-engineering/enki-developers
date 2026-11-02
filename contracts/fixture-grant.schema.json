@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ENKI draft synthetic fixture-grant",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "subject",
+    "tenant",
+    "audience",
+    "scopes",
+    "resource",
+    "expires_at",
+    "revoked"
+  ],
+  "properties": {
+    "subject": {
+      "const": "synthetic-developer"
+    },
+    "tenant": {
+      "const": "synthetic-only"
+    },
+    "audience": {
+      "const": "synthetic.catalog"
+    },
+    "scopes": {
+      "const": [
+        "catalog:read"
+      ]
+    },
+    "resource": {
+      "const": "synthetic://catalog"
+    },
+    "expires_at": {
+      "type": "integer"
+    },
+    "revoked": {
+      "const": false
+    }
+  }
+}
